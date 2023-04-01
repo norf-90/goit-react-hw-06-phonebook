@@ -4,7 +4,7 @@ import 'modern-normalize';
 export const GlobalStyles = () => injectGlobal`
    body {
     background-image: url('https://images.unsplash.com/photo-1611416517780-eff3a13b0359?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1949&q=80');
-    background-size: cover;
+    background-size: auto 100vh;
     background-repeat: no-repeat;
    background-attachment: ;
 
